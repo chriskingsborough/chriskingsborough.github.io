@@ -3,7 +3,7 @@ table {
 }
 
 .page-header {
-  padding-bottom: 5%;
+  // padding-bottom: 5%;
 
   ul {
     list-style-type: none;
@@ -52,6 +52,7 @@ table {
 
 .header {
   h1 {
+    padding-top: 5%;
     padding-left: 25%;
     padding-right: 25%;
     padding-bottom: 1%;
@@ -103,4 +104,13 @@ div.desc {
     content: "";
     display: table;
     clear: both;
+}
+
+
+
+#main-page {
+  background-image: url("static/photos/forward.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
